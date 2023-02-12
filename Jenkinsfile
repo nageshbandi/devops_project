@@ -3,9 +3,7 @@ pipeline {
     stages {
             stage('Clone repository') {
             steps {
-                git branch: 'master',
-                credentialsId: 'my-credentials',
-                url: 'https://github.com/myuser/myrepo.git'
+                    git branch: 'main', url: 'https://github.com/nageshbandi/devops_project.git'
             }
            }
         }
