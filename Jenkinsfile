@@ -9,7 +9,7 @@ pipeline {
         stage('Building Docker Image') {
             steps {
                 script {
-                    def app = docker.build("myrepo/myapp:${env.BUILD_ID}")
+                    def app = docker.build("devops_project:${env.BUILD_ID}")
                 }
             }
         }
