@@ -11,9 +11,9 @@ pipeline {
                                 }
                     }
                 }
-            stage("Execute"){
-                    sh "chmod +x hello.py"
-                    sh "./hello.py"
-                    } 
+        //stage("Execute"){
+        //            sh "chmod +x hello.py"
+        //            sh "./hello.py"
+        //            } 
         }
 }
