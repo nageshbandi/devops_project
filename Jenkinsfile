@@ -8,7 +8,7 @@ pipeline {
                                 sh "scp -o stricthostkeychecking=no hello.py bandinageswarrao@bandis-MacBook-Air.local:/Users/bandinageswarrao/linux_learn"
                                 sh "ls -ltr"
                                 sh "chmod +x hello.py"
-                                sh "./hello.py"
+                                sh "python3 hello.py"
                                 }
                     }
                 }
