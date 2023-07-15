@@ -1,4 +1,7 @@
 ## Terraform Commands
+#To initialize the terraform working Dir\
+`terraform init`
+
 #To validate the Terraform file\
 `terraform validate`
 
