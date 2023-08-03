@@ -1,2 +1,3 @@
 # devops_project
-Learning devops 
+Learning devops
+Learn git commands 
