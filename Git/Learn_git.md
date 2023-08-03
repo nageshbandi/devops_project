@@ -10,6 +10,6 @@
 `git commit -am "commit message"`
 
 #Copy changes from another branch(Let’s have two branches, branchA and branchB. Instead of committing in both branches manually, we can use git rebase command.) \
-`git checkout branchA' \
+`git checkout branchA` \
 `git rebase branchB`
 
