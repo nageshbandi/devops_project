@@ -38,3 +38,5 @@
 `helm uninstall hodor-serving-ch --keep-history`\
 
 `helm rollback hodor-serving-ch 14`
+
+#Links `https://kube-score.com/` Kubernetes object analysis with recommendations for improved reliability and security.
