@@ -26,5 +26,6 @@
 #Show commits where a particular file was changed \
 `git log --follow -- <filename>`
 
-#
+#By using the 'whatchanged' sub command,we can see what has changed over time\
+`git whatchanged --since='2 weeks ago'`
 
