@@ -10,3 +10,6 @@
 `kubectl cluster-info`\
 `kubectl get pods -n kube-system`\
 `kubectl get pods -n kube-system -o wide`
+
+#Synk command tool to validate iac and helm manifest files
+https://docs.snyk.io/snyk-cli/install-or-update-the-snyk-cli
